@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					6939B7181ED9547300B2EE8D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DJMLPGDF6N;
 						ProvisioningStyle = Automatic;
 					};
 					6939B7311ED9547300B2EE8D = {
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMLPGDF6N;
 				INFOPLIST_FILE = copyAndStrong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.river.copyAndStrong;
@@ -435,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJMLPGDF6N;
 				INFOPLIST_FILE = copyAndStrong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.river.copyAndStrong;
@@ -507,6 +510,7 @@
 				6939B7481ED9547300B2EE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6939B7491ED9547300B2EE8D /* Build configuration list for PBXNativeTarget "copyAndStrongTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				6939B74B1ED9547300B2EE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6939B74C1ED9547300B2EE8D /* Build configuration list for PBXNativeTarget "copyAndStrongUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				6939B74E1ED9547300B2EE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
