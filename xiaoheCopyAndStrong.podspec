@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "xiaoheCopyAndStrong"
   s.version      = "0.0.1"
-  s.summary      = "A short description of xiaoheCopyAndStrong."
+  s.summary      = "xiaoheCopyAndStrong组件化实践”
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "YLY" => "tianxiaoxiao@bldz.com" }
+  s.author             = { "YLY" => “2459307230@qq.com” }
   # Or just: s.author    = "YLY"
-  # s.authors            = { "YLY" => "tianxiaoxiao@bldz.com" }
+  # s.authors            = { "YLY" => "2459307230@qq.com" }
   # s.social_media_url   = "http://twitter.com/YLY"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios, “8.0”
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/xiaoheCopyAndStrong.git", :tag => "#{s.version}" }
+  s.source       = { :git => "hhttps://github.com/shawotian/xiaoheCopyAndStrong.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "copyAndStrong/copyAndStrong/mainUI", "mainUI/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
